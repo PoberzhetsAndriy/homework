@@ -3,7 +3,6 @@
 using namespace std;
 double f(double x){
     double a = x*x*x;
-    double b = a*x*x;
     return a+a*x*x+x;
 }
 
